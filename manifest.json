@@ -3,7 +3,7 @@
   "description": "Dumb auto accepting match queue pop!",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["*://*.esportal.com/*", "*://esportal.com/*", "tabs", "webNavigation" ],
+  "permissions": ["*://*.esportal.com/*", "*://esportal.com/*", "tabs", "webNavigation",  "storage" ],
   "background": {
     "service_worker": "service.js"
   },
@@ -11,7 +11,6 @@
       "matches": ["*://*.esportal.com/*", "*://esportal.com/*"],
       "js": ["content.js"]
   }],
-  "permissions": ["storage"],
   "action": {
     "default_popup": "index.html"
   }
