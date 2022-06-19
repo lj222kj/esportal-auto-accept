@@ -1,0 +1,19 @@
+{
+  "name": "Esportal - auto accept",
+  "description": "Dumb auto accepting match queue pop!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["*://*.esportal.com/*", "*://esportal.com/*", "tabs", "webNavigation" ],
+  "background": {
+    "service_worker": "service.js"
+  },
+  "content_scripts": [{
+      "matches": ["*://*.esportal.com/*", "*://esportal.com/*"],
+      "js": ["content.js"]
+  }],
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "index.html"
+  }
+}
+//\\wsl$\Ubuntu\home\linus

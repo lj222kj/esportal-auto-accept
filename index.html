@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    * {
+      margin:  0;
+      padding:  0;
+    }
+    html, body {
+      width: 120px;
+      background-color: #f0f0f0;
+    }
+    main {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    article {
+      padding:  2px;
+      display: grid;
+      grid-template-columns: 1fr 24px;
+    }      
+    input[type="number"] {
+      padding: 0;
+      width:  100px;
+    }
+    input[type="checkbox"] {
+      margin:  2px;
+    }
+  </style>
+</head>
+  <body>
+    <main>
+      <article>
+        <select id='wait'>
+          <option value='5'>5</option>
+          <option value='10'>10</option>
+          <option value='15'>15</option>
+          <option value='20'>20</option>   
+        </select>
+        <input id="enable" type="checkbox" />
+      </article>
+    </main>
+  </body>           
+  <script src="index.js"></script>
+
+</html>
