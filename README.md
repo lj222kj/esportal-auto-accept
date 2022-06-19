@@ -9,3 +9,6 @@ It's simplistic AF and probably won't include any more features, like ever.
 ## - API 
 - Enable / Disable plugin
 - Specify threshhold (time before accepting) to allow for some extra time to fetch your coffee. 
+
+## Published 
+Available as an extension on [chrome webstore here](https://chrome.google.com/webstore/detail/esportal-auto-accept-matc/jijiekbffokfkpjnbnjhnehneihplepn)
