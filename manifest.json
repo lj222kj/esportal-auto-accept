@@ -1,6 +1,6 @@
 {
-  "name": "Esportal - auto accept",
-  "description": "Dumb auto accepting match queue pop!",
+  "name": "Esportal - auto accept matches",
+  "description": "Dumb auto accept for match queue pop!",
   "version": "1.0",
   "manifest_version": 3,
   "permissions": ["*://*.esportal.com/*", "*://esportal.com/*", "tabs", "webNavigation",  "storage" ],
